@@ -58,7 +58,7 @@ export default function DomosGeodesicosDemo() {
       >
         <div className="flex justify-between items-center p-6 lg:px-12">
          <a href="#">
-           <div className="md:w-30 w-20">
+           <div className="md:w-20 w-20">
             <img src="/logo1.png" alt="Logo GeoCoast"  />
           </div>
          </a>
