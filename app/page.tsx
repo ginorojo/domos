@@ -482,7 +482,7 @@ export default function DomosGeodesicosDemo() {
 
               <button 
                 type="submit" 
-                className="w-full bg-emerald-500 text-neutral-950 font-extrabold py-5 rounded-xl hover:bg-emerald-400 transition text-lg flex justify-center items-center gap-3 shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.5)]"
+                className="w-full bg-emerald-500 text-neutral-950 font-extrabold py-3 rounded-xl hover:bg-emerald-400 transition text-lg flex md:flex flex-col justify-center items-center gap- shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.5)]"
               >
                 Agendar vía WhatsApp
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
