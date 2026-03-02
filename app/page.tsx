@@ -56,7 +56,7 @@ export default function DomosGeodesicosDemo() {
         animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
         className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-xl border-b border-white/10"
       >
-        <div className="flex justify-between items-center p-6 lg:px-12">
+        <div className="flex justify-between items-center p-4 lg:px-12">
          <a href="#">
            <div className="md:w-20 w-20">
             <img src="/logo1.png" alt="Logo GeoCoast"  />
