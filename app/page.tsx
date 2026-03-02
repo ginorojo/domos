@@ -58,8 +58,8 @@ export default function DomosGeodesicosDemo() {
       >
         <div className="flex justify-between items-center p-6 lg:px-12">
          <a href="#">
-           <div className="md:w-30 w-20 relative h-10 w-24">
-            <img src="/logo1.png" alt="Logo GeoCoast" className="h-full w-full object-contain brightness-0 invert" />
+           <div className="md:w-30 w-20">
+            <img src="/logo1.png" alt="Logo GeoCoast"  />
           </div>
          </a>
          
@@ -207,7 +207,7 @@ export default function DomosGeodesicosDemo() {
             viewport={{ once: true, amount: 0.5 }}
             className="rounded-3xl overflow-hidden shadow-2xl border-4 border-neutral-800 group order-1 md:order-2"
           >
-            <img src="/2.png" alt="Estructura de domo geodésico" className="w-full h-[300px] md:h-[500px] object-cover group-hover:scale-105 transition duration-700" />
+            <img src="/2.png" alt="Estructura de domo geodésico" className="w-full h-75 md:h-125 object-cover group-hover:scale-105 transition duration-700" />
           </motion.div>
         </div>
       </section>
@@ -216,7 +216,7 @@ export default function DomosGeodesicosDemo() {
       <section className="py-20 md:py-24 px-6 bg-white rounded-b-[3rem] md:rounded-b-[4rem]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16">
           <div className="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-xl border-4 border-stone-100">
-            <img src="/1.png" alt="Equipo EcoCoast en taller" className="w-full h-[300px] md:h-[450px] object-cover" />
+            <img src="/1.png" alt="Equipo EcoCoast en taller" className="w-full h-75 md:h-112.5 object-cover" />
           </div>
           <motion.div 
             initial="initial"
@@ -253,7 +253,7 @@ export default function DomosGeodesicosDemo() {
               <h3 className="text-2xl font-bold mb-2">Básico: DIY Kit</h3>
               <p className="text-stone-500 mb-6 text-sm md:text-base">Ideal para constructores y entusiastas.</p>
               <div className="text-4xl md:text-5xl font-bold mb-6 text-emerald-600">$2.190.000<span className="text-xs md:text-sm text-stone-400 font-medium block md:inline"> + IVA</span></div>
-              <ul className="space-y-4 mb-10 text-stone-700 text-base md:text-lg flex-grow">
+              <ul className="space-y-4 mb-10 text-stone-700 text-base md:text-lg grow">
                 <li className="flex gap-3"><Box className="w-5 h-5 text-emerald-500 shrink-0"/> Kit Geodésico Completo</li>
                 <li className="flex gap-3"><ShieldCheck className="w-5 h-5 text-emerald-500 shrink-0"/> Cubierta PVC Premium</li>
                 <li className="flex gap-3"><ExternalLink className="w-5 h-5 text-emerald-500 shrink-0"/> Planos de ensamblaje</li>
@@ -273,7 +273,7 @@ export default function DomosGeodesicosDemo() {
               <h3 className="text-2xl font-bold mb-2 text-white">Estándar: Instalado</h3>
               <p className="text-neutral-400 mb-6 text-sm md:text-base">Nosotros hacemos el trabajo pesado.</p>
               <div className="text-4xl md:text-5xl font-bold mb-6 text-emerald-400">$3.290.000<span className="text-xs md:text-sm text-neutral-600 font-medium block md:inline"> + IVA</span></div>
-              <ul className="space-y-4 mb-10 text-neutral-300 text-base md:text-lg flex-grow">
+              <ul className="space-y-4 mb-10 text-neutral-300 text-base md:text-lg grow">
                 <li className="flex gap-3"><Zap className="w-5 h-5 text-emerald-400 shrink-0"/> Todo lo del Plan DIY Kit</li>
                 <li className="flex gap-3"><Zap className="w-5 h-5 text-emerald-400 shrink-0"/> Armado en tu sitio</li>
                 <li className="flex gap-3"><Zap className="w-5 h-5 text-emerald-400 shrink-0"/> Aislamiento Premium</li>
@@ -288,7 +288,7 @@ export default function DomosGeodesicosDemo() {
               <h3 className="text-2xl font-bold mb-2">Pro VIP: Glamping</h3>
               <p className="text-stone-500 mb-6 text-sm md:text-base">Listo para facturar a precio premium.</p>
               <div className="text-4xl md:text-5xl font-bold mb-6 text-emerald-600">$5.190.000<span className="text-xs md:text-sm text-stone-400 font-medium block md:inline"> + IVA</span></div>
-              <ul className="space-y-4 mb-10 text-stone-700 text-base md:text-lg flex-grow">
+              <ul className="space-y-4 mb-10 text-stone-700 text-base md:text-lg grow">
                 <li className="flex gap-3"><HandCoins className="w-5 h-5 text-emerald-500 shrink-0"/> Todo lo del Plan Instalado</li>
                 <li className="flex gap-3"><HandCoins className="w-5 h-5 text-emerald-500 shrink-0"/> Terraza VIP de madera</li>
                 <li className="flex gap-3"><HandCoins className="w-5 h-5 text-emerald-500 shrink-0"/> Jacuzzi de madera (Hot Tub)</li>
@@ -449,7 +449,7 @@ export default function DomosGeodesicosDemo() {
                         setFormData({...formData, dia: e.target.value, horario: ''});
                       }
                     }}
-                    className="w-full p-4 rounded-xl bg-neutral-900 border border-neutral-700 focus:border-emerald-500 outline-none transition text-white [color-scheme:dark] cursor-pointer" 
+                    className="w-full p-4 rounded-xl bg-neutral-900 border border-neutral-700 focus:border-emerald-500 outline-none transition text-white scheme-dark cursor-pointer" 
                   />
                 </div>
 
